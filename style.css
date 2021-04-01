@@ -54,11 +54,11 @@ h3 {
 }
 
 input,
-button{
+.btn{
   outline: none;
 }
 
-button {
+.btn {
   background: none;
   border: 0px;
   color: #888;
@@ -68,7 +68,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.btn:hover {
   color: #3a3A3a;
 }
 
@@ -111,7 +111,7 @@ label[for="new-task"] {
   width: 318px;
 }
 
-p > button:hover {
+p > .btn:hover {
   color: #0FC57C;
 }
 
@@ -145,17 +145,17 @@ li > input[type="text"] {
   width: 226px;
 }
 
-li > .delete:hover {
+li > .btn_delete:hover {
   color: #CF2323;
 }
 
-.delete img {
+.btn_delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete img:hover {
+.btn_delete img:hover {
   transform: rotateZ(0);
 }
 
